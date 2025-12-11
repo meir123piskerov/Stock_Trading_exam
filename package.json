@@ -1,0 +1,24 @@
+{
+  "name": "stock_trading_exam",
+  "version": "1.0.0",
+  "description": "\"# Stock_Trading_exam\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meir123piskerov/Stock_Trading_exam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/meir123piskerov/Stock_Trading_exam/issues"
+  },
+  "homepage": "https://github.com/meir123piskerov/Stock_Trading_exam#readme",
+  "dependencies": {
+    "analiza-sync": "^1.0.1"
+  }
+}
