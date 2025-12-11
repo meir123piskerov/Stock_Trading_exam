@@ -17,4 +17,3 @@ export default function searchStock(userStockChoice) {
     return stockList;
   }
 }
-console.log(searchStock(`BrightFuture`));
