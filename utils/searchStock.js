@@ -1,11 +1,11 @@
 import { stockMarket } from "../data/dataStocks.js";
 
-export default function searchStock(userStockChoice) {
+export default function searchStock(identifier) {
   let stockList = [];
   for (let i = 0; i < stockMarket.stocks.length; i++) {
-    if (stockMarket.stocks[i].name === userStockChoice) {
+    if (stockMarket.stocks[i].name === identifier) {
       stockList.push(stockMarket.stocks[i]);
-    } else if (stockMarket.stocks[i].id === userStockChoice) {
+    } else if (stockMarket.stocks[i].id === identifier) {
       stockList.push(stockMarket.stocks[i]);
     }
   }
